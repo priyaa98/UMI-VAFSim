@@ -1,0 +1,45 @@
+# Sequencing data and alignments
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf
+*.vcf.gz
+*.tbi
+*.sam
+
+# Run outputs (may contain sample-derived data)
+ledger*.csv
+mutated_reads*.txt
+Analysis_*/
+test_results/
+spikein_mates_*/
+
+# COSMIC and reference data (licensed / large)
+*.db
+*.sqlite
+*.sqlite3
+*cosmic*
+*COSMIC*
+hg38/
+*.fna
+*.fa
+*.fai
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
